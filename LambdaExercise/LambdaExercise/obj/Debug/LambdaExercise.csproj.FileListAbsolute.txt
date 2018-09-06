@@ -1,0 +1,6 @@
+C:\Users\fsale\source\repos\LambdaExercise\LambdaExercise\obj\Debug\LambdaExercise.csproj.CoreCompileInputs.cache
+C:\Users\fsale\source\repos\LambdaExercise\LambdaExercise\bin\Debug\LambdaExercise.exe.config
+C:\Users\fsale\source\repos\LambdaExercise\LambdaExercise\bin\Debug\LambdaExercise.exe
+C:\Users\fsale\source\repos\LambdaExercise\LambdaExercise\bin\Debug\LambdaExercise.pdb
+C:\Users\fsale\source\repos\LambdaExercise\LambdaExercise\obj\Debug\LambdaExercise.exe
+C:\Users\fsale\source\repos\LambdaExercise\LambdaExercise\obj\Debug\LambdaExercise.pdb

@@ -1,0 +1,10 @@
+c:\users\fsale\source\repos\WinFormExcercise\WinFormExcercise\bin\Debug\WinFormExcercise.exe.config
+c:\users\fsale\source\repos\WinFormExcercise\WinFormExcercise\bin\Debug\WinFormExcercise.exe
+c:\users\fsale\source\repos\WinFormExcercise\WinFormExcercise\bin\Debug\WinFormExcercise.pdb
+c:\users\fsale\source\repos\WinFormExcercise\WinFormExcercise\obj\Debug\WinFormExcercise.csprojAssemblyReference.cache
+c:\users\fsale\source\repos\WinFormExcercise\WinFormExcercise\obj\Debug\WinFormExcercise.Form1.resources
+c:\users\fsale\source\repos\WinFormExcercise\WinFormExcercise\obj\Debug\WinFormExcercise.Properties.Resources.resources
+c:\users\fsale\source\repos\WinFormExcercise\WinFormExcercise\obj\Debug\WinFormExcercise.csproj.GenerateResource.cache
+c:\users\fsale\source\repos\WinFormExcercise\WinFormExcercise\obj\Debug\WinFormExcercise.csproj.CoreCompileInputs.cache
+c:\users\fsale\source\repos\WinFormExcercise\WinFormExcercise\obj\Debug\WinFormExcercise.exe
+c:\users\fsale\source\repos\WinFormExcercise\WinFormExcercise\obj\Debug\WinFormExcercise.pdb

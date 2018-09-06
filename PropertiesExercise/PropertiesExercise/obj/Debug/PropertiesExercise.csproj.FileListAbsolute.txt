@@ -1,0 +1,7 @@
+c:\users\fsale\source\repos\PropertiesExercise\PropertiesExercise\bin\Debug\PropertiesExercise.exe.config
+c:\users\fsale\source\repos\PropertiesExercise\PropertiesExercise\bin\Debug\PropertiesExercise.exe
+c:\users\fsale\source\repos\PropertiesExercise\PropertiesExercise\bin\Debug\PropertiesExercise.pdb
+c:\users\fsale\source\repos\PropertiesExercise\PropertiesExercise\obj\Debug\PropertiesExercise.csprojAssemblyReference.cache
+c:\users\fsale\source\repos\PropertiesExercise\PropertiesExercise\obj\Debug\PropertiesExercise.csproj.CoreCompileInputs.cache
+c:\users\fsale\source\repos\PropertiesExercise\PropertiesExercise\obj\Debug\PropertiesExercise.exe
+c:\users\fsale\source\repos\PropertiesExercise\PropertiesExercise\obj\Debug\PropertiesExercise.pdb
