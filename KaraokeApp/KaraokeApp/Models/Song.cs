@@ -28,7 +28,7 @@ namespace KaraokeApp.Models
         public string Album { get; set; }
 
         [Required]
-        [StringLength(1)]
+        [StringLength(2)]
         public string Key { get; set; }
 
         public virtual ICollection<Playlist> Playlist { get; set; }

@@ -9,7 +9,7 @@ namespace KaraokeApp.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "KaraokeApp.DAL.PlaylistContext";
         }
 
