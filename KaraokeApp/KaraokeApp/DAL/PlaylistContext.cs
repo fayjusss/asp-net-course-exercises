@@ -10,7 +10,7 @@ namespace KaraokeApp.DAL
 {
     public class PlaylistContext : DbContext
     {
-        public PlaylistContext() : base("PlaylistContext") { }
+        public PlaylistContext() : base("MyDbConnection") { }
         public DbSet<Song> Songs { get; set; }
         public DbSet<Singer> Singers { get; set; }
         public DbSet<Playlist> Playlists { get; set; }

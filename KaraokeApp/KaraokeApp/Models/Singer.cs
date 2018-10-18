@@ -10,6 +10,8 @@ namespace KaraokeApp.Models
 {
     public class Singer
     {
+        public int ID { get; set; }
+
         [Required]
         [StringLength(50)]
         [DisplayName("First Name")]

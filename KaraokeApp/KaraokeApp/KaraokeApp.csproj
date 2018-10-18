@@ -154,11 +154,19 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PlaylistController.cs" />
+    <Compile Include="Controllers\SingerController.cs" />
+    <Compile Include="Controllers\SongController.cs" />
     <Compile Include="DAL\PlaylistContext.cs" />
     <Compile Include="DAL\PlaylistInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810172058564_InitialCreate.cs" />
+    <Compile Include="Migrations\201810172058564_InitialCreate.Designer.cs">
+      <DependentUpon>201810172058564_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Playlist.cs" />
     <Compile Include="Models\Singer.cs" />
     <Compile Include="Models\Song.cs" />
@@ -178,6 +186,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Properties\PublishProfiles\KaraokeApp - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -189,7 +198,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -203,6 +214,21 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Song\Create.cshtml" />
+    <Content Include="Views\Song\Delete.cshtml" />
+    <Content Include="Views\Song\Details.cshtml" />
+    <Content Include="Views\Song\Edit.cshtml" />
+    <Content Include="Views\Song\Index.cshtml" />
+    <Content Include="Views\Singer\Create.cshtml" />
+    <Content Include="Views\Singer\Delete.cshtml" />
+    <Content Include="Views\Singer\Details.cshtml" />
+    <Content Include="Views\Singer\Edit.cshtml" />
+    <Content Include="Views\Singer\Index.cshtml" />
+    <Content Include="Views\Playlist\Create.cshtml" />
+    <Content Include="Views\Playlist\Delete.cshtml" />
+    <Content Include="Views\Playlist\Details.cshtml" />
+    <Content Include="Views\Playlist\Edit.cshtml" />
+    <Content Include="Views\Playlist\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -219,6 +245,11 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201810172058564_InitialCreate.resx">
+      <DependentUpon>201810172058564_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
